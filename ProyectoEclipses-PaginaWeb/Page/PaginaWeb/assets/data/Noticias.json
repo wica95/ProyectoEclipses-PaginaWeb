@@ -1,0 +1,221 @@
+[
+    {
+        "id": "PM1",
+        "titulo": "Planetario Móvil acerca el universo a jóvenes de Nuevo León",
+        "subtitulo": "Una lluvia de estrellas o un eclipse de Sol o de Luna, pueden ser observados a detalle por los estudiantes de Nuevo León, quienes tienen la oportunidad de vivir esta experiencia a través de un Planetario Móvil que los acerca a la ciencia.",
+        "fecha": "8 de octubre, 2015",
+        "periodista": "20 MINUTOS EDITORA, S.L.",
+        "parrafos":[
+            "La Universidad Autónoma de Nuevo León (UANL), en su búsqueda de abrir el universo a los jóvenes del estado, 'desmontó' el Observatorio Astronómico que tenía en el municipio de Zuazua, para llevarlo a las aulas, a través de este recinto que recorre los municipios de la entidad.",
+            "Esteban Castro Acuña, responsable del Plantario Móvil de la UANL, explicó que la idea básica de dicho Observatorio, inaugurado el 9 de julio de 1997, era la divulgación de la ciencia, llevar a grupos de estudiantes a Zuazua y que conocieran un poco de ciencia, observar eclipses solares y lunares.",
+            "Los cuidados y mantenimiento del este Observatorio, quedaron a cargo del Departamento de Astronomía de la Facultad de Ciencias Físico-Matemáticas de la institución educativa.",
+            "El lugar contaba con dos telescopios, uno marca Meade LX200, de 12 pulgadas, computarizado, cámara CCD Meade, PC Pentium con Multimedia, filtros y demás accesorios astronómicos, y el otro, era marca Celestron C14 manual, con motor de seguimiento de los astros.",
+            "Castro Acuña detalló que muchos eventos astronómicos se pudieron seguir a en el Observatorio, pero en la actualidad se encuentra inactivo, pues suspendió sus actividades, luego de los problemas de inseguridad que se registraron en el estado.",
+            "Manifestó que ante esta situación y por ubicarse en una zona fuera del área metropolitana, se suspendieron las visitas de estudiantes que se llevaban a cabo al anochecer cuando se podían observar las estrellas y fenómenos astronómicos.",
+            "Para lograr que los estudiantes continuaran con su conocimiento de astronomía, la UANL tomó la determinación de hacer un Planetario Móvil, u utilizar parte del equipo del Observatorio.",
+            "'Ahora nos estamos moviendo con el Plantario Móvil hacia los estudiantes bajo el slogan 'Que la ciencia llegue a tu espacio', hemos visitado ya un buen número de escuelas en la zona metropolitana en Nuevo León', indicó.",
+            "Afuera de esta zona, el planetario ya visitó los municipios de Doctor Arroyo, China, Montemorelos, Linares y General Terán, mientras afuera de Nuevo León visitaron la Universidad de Baja California, para promover los trabajos de ciencia que se llevan a cabo en dicho estado.",
+            "'Es un sistema de simulación, donde se pueden observar eclipses pasados, los estudiantes ven el cielo como si lo vieran afuera y el telescopio que teníamos en Zuazua lo traemos con nosotros.",
+            "'Lo convertimos en móvil y pusimos actividades de ciencia. Esto ayuda a despertar el interés por la ciencia y demostrar que es divertida', añadió.",
+            "Castro Acuña resaltó que 'hay un proyecto que se llama ocultación de estrellas por asteriodes, es un motivo de preocupación para la gente que con la evolución de la Tierra pueda caer uno, pero siempre caen y nunca hacen destrozos. Se observa que sigan en su órbita y es un programa en el que participamos'.",
+            "Diversos acontecimientos se han visto desde el Observatorio, expresó, destacando el del 15 de noviembre de 1999, cuando se dio el tránsito de Mercurio por el Sol, del cual se tomaron gráficas.",
+            "Manifestó que uno de los acontecimientos considerados más importantes dentro de la existencia del Observatorio en Zuazua fue el que se dio en la noche del 17 al 18 de noviembre de 1999, en la cual se registró 'La Noche de las Leónidas'.",
+            "Este fenómeno constó de lluvia de meteoros que luce como todo un espectáculo, por la gran cantidad de estrellas fugaces que iluminan el cielo y los especialistas pudieron observar la parte no iluminada de la Luna cuando es de cuarto menguante e incluso algunos impactos de las Leónidas.",
+            "El responsable del Planetario Móvil indicó que también participan en el programa de La Noche de las Estrellas, que es a nivel nacional, y donde realizan otras actividades de física, matemáticas y muchas otras cosas.",
+            "Remarcó que con estos trabajos, la UANL, expresó, busca que paulatinamente los estudiantes se interesen por esta materia, pero no todo ha quedado ahí, 'y prueba de ello es que ya se realizan estudios para crear un Observatorio de Investigación en el municipio de Iturbide, Nuevo León'.",
+            "'Ahorita se está trabajando en un Observatorio, pero ya es de investigación, en Iturbide. Ya no hablamos de eclipses, sino de otras variantes de astronomía. Se tienen que hacer pruebas durante un espacio de tiempo para probar la calidad del cielo y variantes, ahorita están en esas pruebas, es un proyecto a mediano plazo', declaró.",
+            "Enfatizó que desde la creación del Observatorio en Zuazua, y con dichos proyectos, se continúa en la búsqueda de despertar en los jóvenes el interés por la astronomía y a la par hacer otro tipo de investigaciones astronómicas."
+        ],
+        "imagen": "assets/telescopio.jpg",
+        "imagen2": "", 
+        "imagenb": "assets/visores.jpg"
+    },
+
+    {
+        "id": "PM2",
+        "titulo": "Planetario Móvil UANL: una década llevando el cielo",
+        "subtitulo": "El Sistema Solar, las distancias de las estrellas, pero, sobre todo, los hoyos negros son los temas preferidos de los más de 300 mil niños que han acudido al Planetario Móvil de la UANL.",
+        "fecha": "31 de agosto, 2019",
+        "periodista": "Luis Salazar ",
+        "parrafos":[
+            "¿Qué es un hoyo negro? Es la pregunta más frecuente entre los 300 mil niños que han acudido a ver el Planetario Móvil de la UANL, el cual cumple 10 años en noviembre.",
+            "La segunda y tercera preguntas más populares son ¿cómo se descubren? y ¿qué características tienen los hoyos negros? Conocer sobre esos fenómenos de megapresión y absoluta oscuridad son las dudas más recurrentes entre los pequeños.",
+            "El problema es que las tres son cuestiones difíciles de responder, consideró el coordinador del planetario y fotoastrónomo Esteban Castro Acuña.",
+            "A estos cuestionamientos se enfrentan él y el grupo de alumnos de la Facultad de Ciencias Físico Matemáticas (FCFM), quienes conforman el equipo itinerante.",
+            "Por lo general, los niños siempre salen muy emocionados porque dentro del planetario es una forma muy diferente de ver el cielo. Al final de cuentas, tanto dentro del área metropolitana como fuera es muy emocionante de ver ese tipo de simulaciones”.(Esteban Castro Acuña, Coordinador del Planetario Móvil de la UANL)",
+            "Más de 300 mil asistentes es una cifra que equivale a casi la tercera parte de la población infantil de Nuevo León, ya que, según el Instituto Nacional de Estadística y Geografía (INEGI), en el Estado hay un millón 259 mil 253 niños, entre los 0 y 14 años de edad.",
+            "El viaje del Planetario Móvil en esta primera década ha llevado las estrellas, planetas y galaxias a miles de estudiantes de primaria y secundaria de casi todos los municipios de Nuevo León en donde la UANL tiene una escuela preparatoria o institución de extensión.",
+            "Esa titánica labor también se ha logrado por el vínculo tan estrecho que mantienen con la Coordinación de Ciencia y Tecnología de la Secretaría de Educación del Estado. Aunado a las visitas a nivel estatal, el planetario viajó a Ensenada, Baja California, y a Puerto Vallarta, Jalisco.",
+            "Además de organizar “La semana de Ciencia y Tecnología”, la FCFM es sede de la “Noche de las Estrellas”, un evento simultáneo realizado en más de 50 sedes en México.",
+            "“Ahorita ya es muy común que casi nadie observa el cielo. Como que estamos sumergidos en la ciudad que simplemente hacemos lo cotidiano. Es poca la gente que realmente trata de mirar al cielo”. (Esteban Castro Acuña)",
+            "Por ello, destacó que este tipo de actividades, como llevarle a los estudiantes una noche la luna o enseñarles las constelaciones, se les hace muy emocionante, ya que observan lo que existe más allá de nuestro planeta. “[Mostrarles] alguna galaxia, nebulosa o constelaciones. Dentro de nuestra zona metropolitana aún podemos ver algunos objetos, como los planetas. Los objetos del cielo profundo es muy difícil observarlos”, comparó.",
+            "¿Qué pasará el 3 de octubre con el asteroide 2007 FT3? ¿Es verdad que su órbita está más allá de la Luna? ¿Podría chocar con la Tierra?",
+            "Castro dice que cuando hay un evento astronómico, las redes sociales son muy buenas para anunciarlo y promoverlo. Pero también pueden ser muy malas por la mala información y las fake news que se viralizan.",
+            "“Cuando hubo un acercamiento de la Tierra con Marte se anunciaba como un espectáculo muy interesante. Cuando calculándolo, pues no, sí estaba más grande pero no al tamaño de la luna. Son esas cosas que te preguntan los niños; ellos te implican preguntas más capciosas que los adultos”, destacó."
+        ],
+        "imagen": "assets/NocheEstrellas.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/jovenes.jpg"
+    },
+
+    {
+        "id": "PM3",
+        "titulo": "Suma Planetario Móvil 200 mil espectadores",
+        "subtitulo": "El proyecto creado por la Universidad Autónoma de Nuevo León en 2009 consta de un domo con un proyector de pantalla tipo IMAX donde se explica a los estudiantes de todos los niveles educativos sobre sucesos astronómicos futuros.",
+        "fecha": "3 de marzo, 2016",
+        "periodista": "Luis Salazar y José Luis Macías Nicanor(fotógrafo)",
+        "parrafos":[
+            "“Hoy 29 de febrero es un día especial. Como saben, cada año sobran seis horas en el reloj, entonces cada cuatro años forman un día más”, explicaba José Rosalío Lázaro a una veintena de estudiantes de la Preparatoria Emiliano Zapata (UNEZ) quienes apreciaban la breve explicación del Universo en el Planetario Móvil de la UANL.",
+            "Ese suceso es uno entre los miles que han ocurrido en la historia de este proyecto de divulgación científica de la Universidad Autónoma de Nuevo León, en su visita a las escuelas de todos los niveles educativos del Estado, y donde ya cuentan con 200 mil espectadores desde su inauguración en noviembre de 2009.",
+            "Bajo el slogan “Que la Ciencia llegue a tu espacio”, desde hace casi siete años el proyecto que encabeza Esteban Castro Acuña ha visitado la mayoría de las prepas de la UANL y ha participamos con la Secretaría de Educación estatal y otros programas federales.",
+            "Esteban es conocido por su trabajo fotográfico de los astros, en entrevista contó que la idea del Planetario Móvil es simular el cielo como lo puedes ver ahora, en el futuro o pasado.",
+            "“Puedes simular un eclipse como lo verás en un mes o como se vio hace miles de años. Aquí lo interesante es que les puedes poner lo que va a pasar, no son predicciones, son simples cálculos de lo que va a pasar”.",
+            "Castro Acuña considera que es atractivo para los estudiantes de todos los niveles en tanto es algo muy diferente de lo que están acostumbrados a observar.",
+            "“Es un domo donde ves el cielo, algo diferente a la pantalla plana, es algo emocionante simular el cielo en el espacio, que te acerques a un planeta, que veas la forma mitológica de las constelaciones”.",
+            "Dependiendo del nivel educativo de la escuela que visiten es que se prepara el tema para presentarles.",
+            "“En preescolar les mostramos la luna; en primaria, los planetas; en secundaria, la configuración de la luz o la vida de las estrellas; en preparatoria o facultad ya podemos hacer cálculos. Lo que les presentamos son eclipses, lluvia de estrellas, movimiento de planetas, alineaciones, las distancias o la velocidad de la luz, entre muchas cosas”.",
+            "Además de Castro Acuña, participan en el proyecto de la Facultad de Ciencias Físico-Matemáticas el maestro Alejandro Lara Neave, responsable de las Olimpiadas de Física a nivel estatal; la diseñadora Claudia Ivonne Garza Alfaro; como expositores, los licenciados en física Raúl Lamadrid Chico y José Rosalío Lázaro Valdés, además el doctor en física Francisco Hernández Cabrera."
+        ],
+        "imagen": "assets/PM-PrepaEmilianoZapata.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/espectadores.jpg"
+    },
+    
+    {
+        "id": "TyO1",
+        "titulo": "Aclaran fenómeno de la estrella de Belén",
+        "subtitulo": "El responsable del Planetario Móvil de la UANL aseguró que este fenómeno culminará la noche del 21 de diciembre",
+        "fecha": "20 de diciembre, 2020",
+        "periodista": "Karla Omosigho",
+        "parrafos":[
+            "Después de trascender que el próximo lunes se verá la “estrella de Belén”, por primera vez luego de 800 años, el responsable del Planetario Móvil de la Universidad Autónoma de Nuevo León, Esteban Castro, desmintió y aclaró este fenómeno.",
+            "“Básicamente es una conjunción de dos objetos, en este caso a Júpiter y Saturno, ahora una conjunción significa que nosotros desde nuestra perspectiva de vista desde la tierra veamos ciertos objetos astronómicos acercándose”, comentó en entrevista para ABC Noticias.",
+            "Destacó que este fenómeno es importante, porque la última vez que ocurrió algo similar fue en el año de 1623 y para poder apreciarlo con mayor claridad, Castro aconsejó buscar un lugar alejado de los edificios o inclusive de los cerros para tener un horizonte sin obstáculos.",
+            "“El hecho que estén cerca no quiere decir que realmente estén cerca, es una cercanía de acuerdo a nuestra perspectiva. Al final de cuentas uno está más lejos que otro, las dos orbitas de los planetas coinciden muy cerca para nosotros verlo”, detalló.",
+            "El responsable del Planetario Móvil de la UANL aseguró que el proceso de este fenómeno con Júpiter y Saturno comenzó hace varios días y diariamente se van juntando hasta culminar la noche del 21 de diciembre, después se alejarán en el mismo curso. ",
+            "Sobre la información que ha circulado en las redes sociales y medios de comunicación, donde se asegura que es el avistamiento de la “estrella de Belén” asegura que no hay un registro de esta información. "
+        ],
+        "imagen": "assets/EstrellaBelén.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/observatorio.jpg"
+    },
+
+    {
+        "id": "TyO2",
+        "titulo": "Observarán en UANL eclipse de sol",
+        "subtitulo": "La UANL elaboró 20 mil visores solares para el evento astronómico; se repartieron en más de 100 planteles de educación básica, 55 escuelas de la UANL, 20 municipios del Estado y 100 ciudades de la República Mexicana.",
+        "fecha": "18 de agosto, 2017",
+        "periodista": "Eduardo Loredo Rivera y Marijose Cabello Rodríguez, Cesira Alvarado Zapata (fotógrafas)",
+        "parrafos":[
+            "El 21 de agosto se apreciará en México un eclipse de sol. En Nuevo León ocurrirá en un grado de parcialidad del 45 a 55 por ciento, a partir de las 11:40 horas.",
+            "Con el propósito de observar este evento astronómico, la Universidad Autónoma de Nuevo León elaboró más de 20 mil visores solares, como parte del Programa “Que la Ciencia Llegue a tu Espacio”.",
+            "Estos visores solares se distribuyeron en las 55 preparatorias, escuelas técnicas y facultades de la UANL; así como en más de 100 planteles escolares de nivel básico del Estado, informó Esteban Castro Acuña.",
+            "El coordinador del Planetario Móvil de la UANL mencionó que este programa se extendió a 20 municipios de Nuevo León, así como a más de 100 ciudades de la República.",
+            "La UANL fabricó los visores apegado a los estándares internacionales, con el auspicio del Consejo Nacional de Ciencias y Tecnología (CONACYT). Jornada astronómica en UANL y plazas municipales.",
+            "A partir de las 11:00 horas, la Universidad Autónoma de Nuevo León realizará jornadas científicas en las explanadas de Ciudad Universitaria, la Facultad de Ciencias Físico Matemáticas, Colegio Civil Centro Cultural Universitario y Centro Cultural Hacienda San Pedro, en Zuazua, N. L. Entre las actividades, habrá telescopios, charlas y taller para elaborar visores solares, en el caso de CU.",
+            "Con el apoyo de los ayuntamientos, se realizarán actividades de las 11:30 a las 15:00 horas, en las plazas principales de Escobedo, Guadalupe y Monterrey, en el área metropolitana; en los municipios de Valle de las Salinas: Abasolo, Ciénega de Flores, Doctor González, El Carmen, General Zuazua, Hidalgo, Higueras, Marín y Salinas Victoria.",
+            "También habrá visores solares en los municipios del sur de Nuevo León: Aramberri, Doctor Arroyo, Galeana, Hualahuises, Iturbide, Linares, Mier y Noriega y Zaragoza.",
+            "En toda esta actividad científica están involucrados el Gobierno de Nuevo León, a través de la Secretaría de Educación e Instituto de Innovación y Transferencia de Tecnología; la Sociedad Astronómica del Planetario Alfa, la organización Noche de las Estrellas y la compañía Kosmos."
+        ],
+        "imagen": "assets/RuedaPrensaUANL.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/UniversitariosConVisores.jpg"
+    },
+
+    {
+        "id": "TyO3",
+        "titulo": "Se prepara UANL para apreciar eclipses solares",
+        "subtitulo": "En vista de los eclipses anular y total que podrán ser vistos en el país en 2023 y 2024, respectivamente, la UANL se integró al Comité Nacional de Eclipses México para disfrutarlos de manera segura.",
+        "fecha": "25 de abril, 2022",
+        "periodista": "Eduardo Rodríguez Palacios",
+        "parrafos":[
+            "La Universidad Autónoma de Nuevo León forma parte del Comité Nacional de Eclipses México, el cual está integrado por diversas instituciones educativas y de investigación, así como de grupos de astrónomos profesionales.",
+            "Este comité surge debido a que el 14 de octubre de 2023 se tendrá la oportunidad de observar un eclipse anular de Sol en la región sureste de México y el 8 de abril de 2024 un eclipse total de Sol que cruzará por la zona norte del país.",
+            "El primero cruzará por los estados de Quintana Roo, Campeche y Yucatán, mientras que el segundo recorrerá Sinaloa, Durango y Coahuila; en el resto del país ambos eclipses se apreciarán como parciales.",
+            "Entre las funciones del comité estará el brindar información y coordinar las acciones para que México disfrute de estos fenómenos de manera segura.",
+            "Luego de un año de trabajo en conjunto, este 8 de abril, justo a dos años del eclipse total, se presentará al Comité Nacional de Eclipses México y algunos de sus planes y actividades.",
+            "La última vez que en México se tuvo la oportunidad de observar un eclipse total de Sol fue hace más de 30 años, el 11 de julio de 1991. Unos años después, el 10 de mayo de 1994, en el noreste del país se pudo apreciar otro eclipse solar, pero esta vez fue de tipo anular.",
+            "Para asegurarse de que la sociedad civil y los actores gubernamentales cuenten con información precisa y verídica para disfrutar de estos maravillosos eventos de manera segura, se formó el Comité Nacional de Eclipses México con instituciones educativas y organizaciones dedicas a desarrollar y promover el conocimiento científico.",
+            "El comité está conformado por el Instituto de Astronomía, el Instituto de Radioastronomía y Astrofísica y la Escuela Nacional de Estudios Superiores Unidad Mérida de la UNAM, el Instituto Nacional de Astrofísica, Óptica y Electrónica, la Universidad Autónoma de Sinaloa, la Red Nacional de Consejos Estatales de Ciencia y Tecnología, la Red de Planetarios de Quintana Roo, el Planetario de Torreón, la Noche de las Estrellas y Kosmos Scientific de México.",
+            "De acuerdo con este grupo de expertos, el próximo eclipse total de Sol visible en México será en 2052."
+        ],
+        "imagen": "assets/MapaRutaEclipse.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/eclipse1.jpg"
+    },
+
+    {
+        "id": "TyO4",
+        "titulo": "Universitarios de la UANL contemplan eclipse solar",
+        "subtitulo": "Estudiantes apreciaron el eclipse parcial de sol en diferentes planteles académicos y espacios culturales de la UANL. Por 4 horas, la Explanada de Cd Universitaria se cubrió de jóvenes para observar el evento astronómico.",
+        "fecha": "21 de agosto, 2017",
+        "periodista": "Eduardo Loredo Rivera, Ilse Caballero Rosales y Efraín Aldama Villa, José Luis Macías Nicanor, Daniel Zamora Aguilar (fotógrafos)",
+        "parrafos":[
+            "El eclipse parcial de sol convocó a miles de estudiantes y maestros de la Universidad Autónoma de Nuevo León. A través de visores, telescopios con filtros solares y métodos indirectos, los universitarios contemplaron el evento astronómico este 21 de agosto de 2017.",
+            "Desde las 10:00 horas, la Explanada de Ciudad Universitaria se comenzó a cubrir de personas. Resguardados por sombrillas, lentes de sol, sombreros, gorras y hasta mochilas, jóvenes de facultades, preparatorias y escuelas técnicas formaron filas en espera del la interposición de la Luna entre la Tierra y el Sol.",
+            "Como parte de la jornada científica, la Facultad de Ciencias Físico Matemáticas apoyó a los universitarios para elaborar sus caretas y lentes con filtros solares autorizados.",
+            "A partir de las 11:40 horas, los universitarios empezaron a mirar el cielo con los visores elaborados por la Universidad Autónoma de Nuevo León.",
+            "Miembros del Departamento de Astronomía distribuyeron los visores para contemplar el eclipse solar que en Nuevo León tuvo una parcialidad del 45 al 55 por ciento.",
+            "Glenn Gámez Nájera, les facilitó a los universitarios observar el eclipse en un telescopio catadióptrico con filtro solar, así como captar algunas fotografías. El estudiante de física de la UANL disipó algunas dudas y orientó a personas interesadas en el espacio exterior.",
+            "A las 13:08 horas, se alcanzó el punto máximo del eclipse, en el corazón de CU, estudiantes de la FCFM orientaban a sus compañeros sobre el uso correcto del visor y mostraban metros indirectos para observar el reflejo de la luz sobre la explanada.",
+            "Esta actividad se replicó de manera simultánea en las 26 facultades y 29 preparatorias de la UANL. El Rector Rogelio Garza Rivera apreció el eclipse solar desde el observatorio astronómico en la Unidad Cultural Hacienda San Pedro. El Colegio Civil Centro Cultural Universitario recibió a cientos de visitantes y contó con el apoyo de la Sociedad Astronómica del Planetario Alfa.",
+            "Un acercamiento a la ciencia y el espacio",
+            "En víspera de este evento astronómico, la Universidad Autónoma de Nuevo León elaboró 20 mil visores solares, que distribuyó en sus 55 preparatorias, escuelas técnicas y facultades, en más de 100 planteles de educación básica del estado; en 20 municipios de Nuevo León y en más de 100 ciudades de la República Mexicana.",
+            "La Facultad de Ciencias Físico Matemáticas de la UANL y el Planetario Móvil de la UANL coordinaron esfuerzos con el CONACYT, el Gobierno de Nuevo León, Planetario Alfa y la compañía Kosmos.",
+            "“Este tipo de eventos son una gran oportunidad para acercar a los niños a la ciencia, de que la curiosidad de los niños se pueda despertar o agilizar un poquito más ya que es un evento donde intervienen los tres cuerpos celestes: el Sol, la Luna y la Tierra en un movimiento prácticamente armonioso”, expresó Alejandro Lara Meave, profesor de la Facultad de Ciencias Físico Matemáticas.",
+            "Este tipo de fenómenos naturales son importantes para la ciencia, ya que permiten medir la coronación solar; además de aclarar mitos y rumores en torno a eventos que auguran catástrofes y malos presagios.",
+            "“Los invito a que se documenten más acerca de este tipo de fenómenos que son muy interesantes, pueden enriquecer a uno bastante, no hay ningún prejuicio, ninguna cosa mala asecha este evento”, añadió Lara Meave.",
+            "Los próximos eclipses que se verán en México tienen fechas para el mes de octubre del 2023, el cual entrará por el Estado de Yucatán y será un eclipse anular; en el mes de abril del 2024, la alineación del eclipse estará muy cerca de la ciudad de Monterrey, se tiene estimado que la totalidad del eclipse se verá en los estados de Coahuila y Durango."
+        ],
+        "imagen": "assets/PrepaConVisores.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/PrepaConTelescopio.jpg"
+    },
+
+    {
+        "id": "TyO5",
+        "titulo": "Vive aventura espacial en la UANL",
+        "subtitulo": "Ponte en órbita este 25 de noviembre en la Universidad Autónoma de Nuevo León, durante la jornada astronómica “Noche de las Estrellas”. Celebra seis décadas del inicio de la aventura espacial con el lanzamiento del Sputnik 1.",
+        "fecha": "23 de noviembre, 2017",
+        "periodista": "Redacción Prensa UANL y Marijose Cabello (fotógrafa)",
+        "parrafos":[
+            "Por quinto año consecutivo, la Universidad Autónoma de Nuevo León será sede de Noche de las Estrellas, el 25 de noviembre, con una serie de actividades dirigidas al público en general, de manera gratuita.",
+            "La fiesta astronómica se realizará este sábado, de 16:00 a 21:00 horas, en las instalaciones del Colegio Civil Centro Cultural Universitario. En la jornada de divulgación científica habrá charlas, talleres y visitas al Planetario Móvil de la UANL.",
+            "Noche de las Estrellas tiene programadas observaciones solares y estelares; talleres de robótica, matemáticas, física, óptica y cómo armar un sistema solar móvil; juegos de naves y agujeros, y de lotería astronómica.",
+            "La edición 2017 reviste una importancia especial por la conmemoración de los 60 años del inicio de la aventura espacial con el lanzamiento del Sputnik, destacó Esteban Castro Acuña.",
+            "El coordinador del Planetario Móvil de la UANL destacó que Noche de las Estrellas es la más grande fiesta astronómica, a nivel nacional, que se desarrollará simultáneamente en más de 90 sedes del país.",
+            "En México se realiza de forma anual y con una creciente participación, desde su instauración en 2009.",
+            "Considerado el evento masivo de divulgación de la ciencia más grande e importante de Iberoamérica, fue inspirado por la Nuit des Étoiles, que se creó en Francia en 1991, y unió el trabajo y talento de astrónomos profesionales y aficionados.",
+            "El objetivo de la organización es acercar el conocimiento, de forma lúdica y gratuita, a la mayor cantidad posible de personas. Para lograr un impacto social importante, el evento se realiza de forma simultánea en muchas sedes distribuidas a lo largo y ancho del país.",
+            "Durante las ocho ediciones anteriores, Noche de las Estrellas ha reunido a más de un millón de personas, atendidas por cerca de 5 mil voluntarios, en actividades de asesoría, talleres sobre diferentes temas, y disposición de dos mil telescopios para la observación del cielo.",
+            "A 60 años del inicio de la aventura espacial",
+            "Este 2017, Noche de las Estrellas celebra los 60 años del lanzamiento del Sputnik 1, que marcó el inicio de la gran aventura espacial y aceleró el desarrollo tecnológico y científico de varias disciplinas, incluyendo la astrofísica.",
+            "Ponte en órbita, conoce y disfruta de la astronomía en el Colegio Civil Centro Cultural Universitario de la UANL, en el centro de la ciudad de Monterrey. Entrada libre y gratuita para el público en general."
+        ],
+        "imagen": "assets/NinoRojoTelescopio.jpg",
+        "imagen2": "", 
+        "imagenb": "assets/TelescopioNocheEstrellas.jpg"
+    },
+
+    {
+        "id": "TyO6",
+        "titulo": "Eclipse 2017",
+        "subtitulo": "El próximo mes de agosto estaremos celebrando cuatro años desde que tuvimos la oportunidad de observar uno de los eclipses de Sol que ha causado la mayor expectación en la sociedad. El último eclipse de Sol que pudo ser apreciado en toda la República Mexicana ocurrió el lunes 21 de agosto del año 2017.",
+        "fecha": "22 de agosto, 2017",
+        "periodista": "Redacción Prensa UANL",
+        "parrafos":[
+            "En Estados Unidos se pudo observar como total y, aunque en México sólo se pudo admirar como parcial, resultó en un extraordinario evento que tuvo mucha difusión social gracias a la gran cantidad de medios tecnológicos, que en combinación con las redes sociales, influyeron de manera favorable para la masificación de este fenómeno astronómico.",
+            "Para realizar la divulgación de este eclipse, la Universidad Autónoma de Nuevo León, a través de la Facultad de Ciencias Físico Matemáticas, desarrolló un proyecto que fue apoyado por el Conacyt. Uno de los apartados del proyecto denominado “Talleres de Ciencia Recreativa para Divulgación de la Cultura Solar” promovió y fortaleció la cultura científica para la observación de eclipses solares en la sociedad. Para lograr este objetivo se realizó la difusión a través de los medios de comunicación, centros de educación en todos sus niveles y las redes sociales dentro del estado de Nuevo León.",
+            "A medida que se mejoraban los canales de comunicación, se estableció una sinergia entre diferentes grupos de divulgación en todo el país. Esta suma de esfuerzos y recursos iba permeando en la sociedad, la cual estaba cada vez más consciente de que un espectáculo astronómico poco habitual estaba próximo a suceder. Lo anterior incrementó rápidamente el número de sedes participantes hasta alcanzar alrededor de 350, distribuidas en 30 estados.",
+            "El impacto del evento a nivel nacional era evidente, y para lograr una observación solar segura se desarrollaron materiales didácticos, visores solares y actividades para transmitir el eclipse. Es en este momento cuando se ve la necesidad de fabricar en gran escala visores solares, para distribuirlos entre la población y concientizarlos sobre los cuidados necesarios durante la observación solar y de esta manera evitar daño a la vista.",
+            "Un total de 20 mil visores solares fueron fabricados con filtro de polímero negro de alta calidad aprobado por la Secretaría de Salud y armado en cartulina couché con diferentes diseños. Estos diseños versátiles permitieron usar el visor como lentes para observación “directa” del eclipse, otros diseños podían acoplarse en oculares de telescopios, o en teléfonos celulares y cámaras para tomar fotografías y videos.",
+            "La cantidad de visores solares producidos no fue suficiente para cubrir la gran demanda de las sedes en todo el territorio nacional. Este visor solar fue distribuido en forma racionada en casi todos los estados de la República Mexicana, haciendo posible que este eclipse solar fuera el evento astronómico más observado en la historia, a través de un dispositivo seguro y de fácil manejo.",
+            "El eclipse total de Sol dio inicio a las 11:44 y finalizó a las 14:36 h del ya mencionado lunes 21 de agosto de 2017. Al término del evento se contabilizaron más de 200 mil personas que acudieron a las sedes de observación en todo México, marcando un importante precedente en la divulgación de eventos astronómicos al alcance de toda la sociedad.",
+            "El éxito en la logística y organización de la observación del eclipse fue posible gracias a los esfuerzos de divulgación que se están realizando a nivel nacional, con programas de la Secretaría de Educación Pública, instituciones de educación superior, en conjunto con grupos de divulgación de la Noche de las Estrellas, talleres de ciencia, planetarios móviles, museos científicos y organizaciones civiles astronómicas. Esta grata experiencia pone de manifiesto que la comunidad mexicana requiere de actividades que fomenten la divulgación científica a través de la astronomía.",
+            "En el año 2023 será posible ver en el territorio mexicano un eclipse anular de Sol, y en 2024 un eclipse total de Sol. Sin duda, estos dos próximos eventos astronómicos representarán un reto nacional en cuanto a la organización en general, ya que seguramente se superará el número de participantes del año 2017."
+        ],
+        "imagen": "assets/asistentes2.jpg", 
+        "imagen2": "",
+        "imagenb": "assets/TelescopioMadera.jpg"
+    }
+]

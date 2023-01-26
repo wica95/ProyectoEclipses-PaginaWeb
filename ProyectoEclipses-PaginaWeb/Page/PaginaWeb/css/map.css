@@ -1,0 +1,171 @@
+header {
+    margin-bottom: 0%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar.scrolled {
+    background-color: black !important;
+    transition: background-color 200ms linear;
+}
+
+nav div div a:nth-child(2) {
+   border-bottom: medium solid #ffc107;
+}
+
+#toggleMode{
+    border-radius: 60%;
+}
+
+.contenedor {
+    margin-top: 10vh;
+    padding-top: 2.9%;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.Nuestra-Conexión {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.Nuestra-Conexión .card {
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.Nuestra-Conexión .titulo {
+    background-color: black;
+    border: 0px;
+    border-radius: 0px 242px 242px 0px;
+    margin-left: -10%;
+    margin-right: 25%;
+    padding: 2% 0% 2% 0%;
+}
+
+#titulo-planetario {
+    border-radius: 0px 242px 242px 0px;
+    margin-left: -10%;
+    margin-right: 25%;
+}
+
+#titulo-telescopio {
+    border-radius: 242px 0px 0px 242px;
+    margin-left: 25%;
+    margin-right: 0%;
+    text-align: end;
+}
+
+.Nuestra-Conexión .titulo h2{
+    font-size: 60pt;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: 20px solid whitesmoke;
+    margin-bottom: 10vh;
+}
+
+footer i {
+    color: white;
+}
+
+#color-titulo {
+    color: #d61313;
+
+}
+
+#map
+{
+    height: 85vh;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-map-control-button
+{
+    margin-top: 10px;
+    width: 15vw;
+    height: 4vh;
+    font-size:medium;
+}
+
+.selectEclipse
+{
+    font-size: large;
+    position: relative;
+    width: 250px;
+    height: 30px;
+    z-index: 1;
+}
+
+/*DARK MODE*/
+body.dark {
+    background-color: black;
+}
+
+.contenedor.dark {
+    padding-top: 2.9%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+footer.dark {
+    background-color: white;
+    color: black;
+    border: 20px solid black;
+}
+
+footer i.dark {
+    color: black;
+}
+
+#color-titulo.dark {
+    color: #d61313;
+}
+/*END DARK MODE*/
+
+@media only screen and (max-width: 450px) {
+    .navbar-brand{
+        width: 60%;
+        height: 100%;
+    }
+
+    .navbar-brand img{
+        width: 25%;
+        height: 50%;
+    }
+
+    .navbar-collapse {
+        background-color: black;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+#legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+  }
+
+  /*MENU DESPLEGABLE*/
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #1C2331;
+    color: rgb(195, 126, 0) !important;}

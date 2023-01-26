@@ -1,0 +1,22 @@
+[
+    {
+        "id": "SQ1",
+        "titulo": "FULGURACIONES SOLARES ¿QUÉ SON Y POR QUÉ DEBERÍAN INTERESARNOS?",
+        "subtitulo": "PODRÍAMOS DECIR QUE LA NATURALEZA DEL SOL NO ES BELLA NI TERRORÍFICA, ES NEUTRAL",
+        "periodista": "Carlos Vargas",
+        "bibliografia1": "Rodríguez, H. (2022). Llamaradas solares, el peligro que podría golpear la Tierra. National Geographic España. Recuperado el 20 de enero de 2023.",
+        "bibliografia2": "Cowern, D. [Physics Girl]. (18 de abril de 2022). It missed us by 9 days [Archivo de video]. Youtube. Recuperado el 20 de enero de 2023.",
+        "parrafos":[
+            "El Sol es un sistema violento del cual recibimos luz, calor, radiación y en raras ocasiones iones de plasma que se desprenden de su superficie. Estos últimos son los potencialmente más peligrosos para la humanidad, dependiendo con que intensidad lleguen a nuestro planeta.",
+            "El Sol presenta gran actividad electromagnética, esto da lugar a que exista infinidad de campos magnéticos en su superficie. Debido a que el Sol rota a velocidades diferentes a lo largo de su latitud, los campos magnéticos con el paso del tiempo se van entrelazando unos con otros provocando gran concentración de energía entre ellos, lo que en ocasiones llega a provocar fulguraciones solares. Cuando esto sucede se desprenden de la superficie del Sol partículas cargadas (iones de plasma) hacia el espacio, las cuales son potencialmente peligrosas para la Tierra ya que pueden alterar los sistemas de telecomunicaciones y red eléctrica de nuestro planeta.",
+            "Esto ya ha pasado anteriormente, por ejemplo en el año de 1859 un acontecimiento conocido como el “Evento Carrington”, desencadenó una violenta tormenta geomagnética en la Tierra, provocando efectos palpables en la electricidad, las fulguraciones solares fueron tan intensas que causaron eventos sin precedentes. En esta época el mundo todavía no estaba cubierto de cables y la electricidad no nos rodeaba totalmente, los telégrafos eran casi toda la infraestructura eléctrica existente, no obstante los reportes de ese año indican que hubo corrientes eléctricas tan grandes en el ambiente y en los cables que muchos telegrafistas se electrocutaron, algunos telégrafos podían seguir enviando mensajes por los cables aun sin estar conectados a su batería, el gran flujo electromagnético sobrecargó tanto los cables e instalaciones eléctricas que provocó que algunos se incendiaran espontáneamente.",
+            "Todo lo anterior parece basado en una película de ciencia ficción, pero sucedió, ahora imaginemos cuales podrían ser las consecuencias en el presente, con millones de instalaciones eléctricas estropeadas, incendios espontáneos dentro de hogares y edificios, aparatos electrónicos inservibles, sistemas de navegación, entre otras cosas. Nuestra dependencia de la electricidad podría hacernos pasar el peor tiempo como humanidad en la historia moderna, si una fulguración solar provocara algo parecido a lo de 1859.",
+            "Los investigadores y astrónomos pronostican que una de las fechas más cercanas en que podría volver a ocurrir esto es en el año 2024, ya que se espera una gran actividad solar, que provocaría el aumento en los entrelazamientos magnéticos, dando lugar a mayor probabilidad de fulguraciones solares.",
+            "Sin embargo, no todo es terrorífico acerca de estas liberaciones de energía, las más débiles que logran impactar la Tierra generan un efecto que apreciamos desde hace mucho tiempo; las partículas, al venir cargadas con mucha energía y chocar con las partículas en el ambiente, liberan parte de esta energía en forma de luz tenue, estos enérgicos choques nos dan como resultado la maravillosa Aurora Boreal en el polo norte y la Austral en el polo sur, que es el resultado de los campos magnéticos de la Tierra “defendiéndonos” de los iones de plasma del Sol.",
+            "Es ordenada en su caos perceptible y sobre todo, está más allá de nuestro día a día. Solo podemos esperar que ese caos se mantenga sin ser peligroso para nuestro planeta por muchos años más."
+        ],
+        "imagen": "assets/FulguracionNasa.gif",
+        "imagen2": "assets/AuroraBoreal.jpg", 
+        "imagenb": "assets/CamposMagneticos.jpg"
+    }
+]

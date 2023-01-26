@@ -1,0 +1,189 @@
+.navbar {
+    background-color: black  !important;
+    transition: background-color 200ms linear;
+  }
+
+nav div div a:nth-child(3) {
+   border-bottom: medium solid #ffc107;
+}
+
+#toggleMode{
+    border-radius: 60%;
+}
+
+.contenedor {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+/*tipografias*/
+.contenedor h1 {
+    font-family: 'Lato';
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    font-size: 5vw;
+    /*font-size: 65pt;*/
+    top: 50%;
+    padding-bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffc107;
+}
+
+.contenedor h5 {
+    font-family: 'Lato';
+    text-align: left;
+}
+
+.contenedor p {
+    font-family: 'Montserrat';
+    text-align: justify;
+    text-justify: auto;
+}
+/*fin tipografias*/
+
+/*linea vertical*/
+.verticalLine {
+    border-left: thick solid #e4a612;
+  }
+/*fin linea*/
+
+.titulo {
+    background-color: black;
+}
+
+.titulo h1{
+    background-color: black;
+    border-color: whitesmoke;
+    /* border-radius: 20%; */
+    padding: 0%;
+    margin: 0%;
+}
+
+.noticias-recientes {
+    font-weight: bold;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+/* #texto-noticia{
+    white-space: pre;
+    font-size: 10px;
+    line-height: 1.5px;
+} */
+
+.noticias-recientes .card {
+    border: 5px solid black;
+    border-radius: 30px;
+    transform: translate(0%, -15%);
+}
+
+.card-body p {
+    font-size: 15pt;
+}
+
+.noticias-recientes .card-body {
+    padding: 4% 6%;
+}
+
+.noticias-recientes .card-title{
+    font-size: 21pt;
+    margin: 2% 5%;
+}
+
+.noticias-recientes .card-body>.row>p {
+    display: flex;
+}
+
+.noticias-recientes .card-body>.row>p:nth-child(2) {
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: 20px solid whitesmoke;
+}
+
+footer i {
+    color: white;
+}
+
+/*DARK MODE*/
+
+.contenedor.dark {
+    background-color: black;
+    color: white;
+}
+
+.noticias-recientes .card.dark {
+    background-color: black;
+    border: 5px solid white;
+}
+
+footer.dark {
+    background-color: white;
+    color: black;
+    border: 20px solid black;
+}
+
+footer i.dark {
+    color: black;
+}
+
+/*END DARK MODE*/
+
+@media only screen and (max-width: 450px) {
+    .navbar-brand{
+        width: 60%;
+        height: 100%;
+    }
+
+    .navbar-brand img{
+        width: 25%;
+        height: 50%;
+    }
+
+    .navbar-collapse {
+        background-color: black;
+    }
+
+    .noticias-recientes .card {
+        width: 100%;
+        transform: translate(-14%, -2%);
+    }
+
+    .card-body>p {
+        font-size: 10pt;
+    }
+
+    .contenedor h1 {
+        top: 27%;
+    }
+
+    .noticias-recientes .card-body {
+        padding: 1% 4%;
+    }
+
+    .noticias-recientes .card-text {
+        display: none;
+    }
+
+    .noticias-recientes .card-title {
+        font-size: 10pt;
+    }
+
+    .noticias-recientes .card-body>.row>p {
+        font-size: 10pt;
+    }
+
+    .noticias-recientes .card-body>.row>p:nth-child(2) {
+        justify-content: flex-start;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

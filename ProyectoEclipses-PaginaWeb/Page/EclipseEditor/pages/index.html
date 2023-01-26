@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Editor Wonito</title>
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <h1>Eclipse Editor</h1>
+        
+        <div class="eclipse-datetime">
+            <label for="calendarDate">Calendar date: </label><input type="datetime-local" name="calendarDate" id="input-calendarDate">
+        </div>
+
+        <div class="general-info card">
+            <div class="greatests-info">
+                <div class="greatest-eclipse">
+                    <h3>Greatest eclipse</h3>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Time</label><input type="time" id="greatest-eclipse-time-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Latitude</label><input type="number" step="any" id="greatest-eclipse-lat-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Longitude</label><input type="number" step="any" id="greatest-eclipse-lng-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Sun altitude</label><input type="number" step="any" id="greatest-eclipse-sunAlt-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Sun azimuth</label><input type="number" step="any" id="greatest-eclipse-sunAzm-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Path width</label><input type="number" step="any" id="greatest-eclipse-pathWidth-input">
+                    </span>
+                    <span class="greatest-eclipse-data-element">
+                        <label for="">Central duration (In miliseconds) </label><input type="number" step="any" id="greatest-eclipse-centralDuration-input">
+                    </span>
+                </div>
+                <div class="greatest-duration">
+                    <h3>Greatest duration</h3>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Time</label><input type="time" id="greatest-duration-time-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Latitude</label><input type="number" step="any" id="greatest-duration-lat-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Longitude</label><input type="number" step="any" id="greatest-duration-lng-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Sun altitude</label><input type="number" step="any" id="greatest-duration-sunAlt-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Sun azimuth</label><input type="number" step="any" id="greatest-duration-sunAzm-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Path width</label><input type="number" step="any" id="greatest-duration-pathWidth-input">
+                    </span>
+                    <span class="greatest-duration-data-element">
+                        <label for="">Central duration (In miliseconds) </label><input type="number" id="greatest-duration-centralDuration-input">
+                    </span>
+                </div>
+            </div>
+            <h3>Contacts</h3>
+            <div class="contacts-info">
+                <span class="contact-info-element">
+                    <label for="U1">U1:</label><input name="U1" type="time" id="input-U1">
+                </span>
+                <span class="contact-info-element">
+                    <label for="U2">U2:</label><input name="U2" type="time" id="input-U2">
+                </span>
+                <span class="contact-info-element">
+                    <label for="U3">U3:</label><input name="U3" type="time" id="input-U3">
+                </span>
+                <span class="contact-info-element">
+                    <label for="U4">U4:</label><input name="U4" type="time" id="input-U4">
+                </span>
+            </div>
+        </div>
+
+        <h3>Convert DMS to decimal</h3>
+        <div class="dms-to-decimal-converter card">
+            <div class="lat-lng-container">
+                <form action="" id="converter-form" class="converter-form">
+                    <h4>Latitude</h4>
+                    <div class="converter-lat-container">
+                        <label for="lat-deg-converter-input">Degrees:</label> <input type="number" name="lat-deg-converter-input" id="lat-deg-converter-input">
+                        <label for="lat-min-converter-input">Minutes:</label> <input type="number" name="lat-min-converter-input" id="lat-min-converter-input">
+                        <label for="lat-sec-converter-input">Seconds:</label> <input type="number" name="lat-sec-converter-input" id="lat-sec-converter-input">
+                        <select title="lat-select" id="lat-card-converter-input" name="lat-card-converter-input" name="">
+                            <option value="N">North</option>
+                            <option value="S">South</option>
+                        </select>
+                    </div>
+
+                    <h4>Longitude</h4>
+                    <div class="converter-lng-container">
+                        <label for="lng-deg-converter-input">Degrees:</label> <input type="number" name="lng-deg-converter-input" id="lng-deg-converter-input">
+                        <label for="lng-min-converter-input">Minutes:</label> <input type="number" name="lng-min-converter-input" id="lng-min-converter-input">
+                        <label for="lng-sec-converter-input">Seconds:</label> <input type="number" name="lng-sec-converter-input" id="lng-sec-converter-input">
+                        <select title="lng-select" id="lng-card-converter-input" name="lng-card-converter-input">
+                            <option value="W">West</option>
+                            <option value="E">East</option>
+                        </select>
+                    </div>
+                    <button type="submit">Convert</button> 
+                </form>
+                
+                <h4>Results</h4>
+                <form class="conversion-result-form" id="conversion-result-form">
+                    <div class="conversion-result-display">
+                        <p>Latitude: </p> <input type="number" name="lat-result" id="lat-result" step="any">
+    
+                        <p>Longitude: </p> <input type="number" name="lng-result" id="lng-result" step="any">
+
+                        <button type="button" id="btn-set-north">Set north</button>
+                        <button type="button" id="btn-set-south">Set south</button>
+                        <button type="button" id="btn-set-center">Set center</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <h3>Info by time</h3>
+        <div class="card ut-section">
+            <h4>Formato NASA</h4>
+            <textarea id="ut-text-input"></textarea>
+            <button class="log-btn" id="log-btn">Log</button>
+            <form class="ut-inputs" id="ut-form">
+                <div class="ut-inputs-container">
+                    <span class="ut-input-element">
+                        <p>UT</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>North limit</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>South limit</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Center line</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Diameter ratio</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Sun altitude</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Sun azimuth</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Path width</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <p>Central line duration</p>
+                    </span>
+                    <span class="ut-input-element">
+                        <input type="time" id="ut-time-input" name="ut-time-input">
+                    </span>
+                    <span class="ut-input-element">
+                        <label for="">Lat</label><input type="number" step="any" id="ut-sample-north-lat" name="ut-sample-north-lat">
+                        <label for="">Lng</label><input type="number" step="any" id="ut-sample-north-lng" name="ut-sample-north-lng">
+                    </span>
+                    <span class="ut-input-element">
+                        <label for="">Lat</label><input type="number" step="any" id="ut-sample-south-lat" name="ut-sample-south-lat">
+                        <label for="">Lng</label><input type="number" step="any" id="ut-sample-south-lng" name="ut-sample-south-lng">
+                    </span>
+                    <span class="ut-input-element">
+                        <label for="">Lat</label><input type="number" step="any" id="ut-sample-center-lat" name="ut-sample-center-lat">
+                        <label for="">Lng</label><input type="number" step="any" id="ut-sample-center-lng" name="ut-sample-center-lng">
+                    </span>
+                    <span class="ut-input-element">
+                        <input type="number" step="any" id="diameter-ratio-input" name="diameter-ratio-input">
+                    </span>
+                    <span class="ut-input-element">
+                        <input type="number" step="any" id="sun-altitude-input" name="sun-altitude-input">
+                    </span>
+                    <span class="ut-input-element">
+                        <input type="number" step="any" id="sun-azimuth-input" name="sun-azimuth-input">
+                    </span>
+                    <span class="ut-input-element">
+                        <input type="number" step="any" id="path-width-input" name="path-width-input">
+                    </span>
+                    <span class="ut-input-element">
+                        <label for="">Minutes</label><input type="number" step="any" id="central-line-duration-minutes-input" name="central-line-duration-minutes-input">
+                        <label for="">Seconds</label><input type="number" step="any" id="central-line-duration-seconds-input" name="central-line-duration-seconds-input">
+                    </span>
+                </div>
+
+                <button type="submit" id="btn-add-ut-sample" class="btn-add-ut-sample">Add</button>
+            </form>
+
+            <div class="ut-samples-container" id="ut-samples-container">
+                <div class="ut-sample-titles">
+                    <p>UT</p>
+                    <p>North limit</p>
+                    <p>South limit</p>
+                    <p>Center line</p>
+                    <p>Diameter ratio</p>
+                    <p>Sun altitude</p>
+                    <p>Sun azimuth</p>
+                    <p>Path width</p>
+                    <p>Central line duration</p>
+                </div>
+                <!-- <div class="ut-sample-element">
+                    <span>
+                        <small>UT</small>
+                    </span>
+                    <span>
+                        <small>North limit</small>
+                    </span>
+                    <span>
+                        <small>South limit</small>
+                    </span>
+                    <span>
+                        <small>Center line</small>
+                    </span>
+                    <span>
+                        <small>Diameter ratio</small>
+                    </span>
+                    <span>
+                        <small>Sun altitude</small>
+                    </span>
+                    <span>
+                        <small>Sun azimuth</small>
+                    </span>
+                    <span>
+                        <small>Path width</small>
+                    </span>
+                    <span>
+                        <small>Central line duration</small>
+                    </span>
+                </div> -->
+            </div>
+        </div>
+
+        <button type="button" class="submit-eclipse-btn" id="submit-eclipse-btn">Submit</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Solar</title>
+    <link rel="icon" href="assets/Cultura Solar 1.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Tipografias -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Fin tipografias -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="mx-4" src="assets/Cultura Solar 1.png" alt="" width="140" height="93">
+                </a>
+                <button class="navbar-toggler" type="button" onclick="navbarColor()" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Barra de navegacion con menus desplegables -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">                      
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active fs-4 px-5 mx-3 text-warning" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Eventos
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="eventos.html">Eclipses</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Efemérides Astronómicas</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Próximos Eventos</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Artículos
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="Noticias.html">Noticias</a></li>
+                            <li><a class="dropdown-item text-white" href="sabias-que.html">Sabías que</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Entrevistas</a></li>
+                            <li><a class="dropdown-item text-white" href="historias.html  ">Historia y Leyendas</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Multimedia
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="#">Galería de Fotos</a></li>
+                            <li><a class="dropdown-item text-white" href="videos.html">Videos</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="eventos.html">Eventos</a> -->
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="videos.html">Leer más</a> -->
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="Noticias.html">Noticias</a> -->
+                      <button type="button" id="toggleMode" class="btn btn-link fs-2 text-warning"><i class="bi bi-brightness-low-fill"></i></button>
+                </div>
+                <!-- Fin barra de navegacion -->
+            </div> 
+        </nav>
+    </header>
+
+    <div id="contenedor" class="contenedor">
+        <div class="titulo">
+          <img src="assets/BANNER.png" alt="BANNER" width="65%">
+          <h1>Eclipses en México <br> 2023 y 2024</h1>
+        </div>
+
+        <div class="noticias-recientes">
+
+            <!-- Noticia - index - 1 -->
+            <div class="card bg-transparent mb-5 mx-5" >
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body ps-5">
+                      <h5 id="titulo1-noticia" class="card-title text-warning fs-1"></h5>
+                      <p id="texto1-noticia" class="card-text fs-4"></p>
+                      <a href="Detalle.html?N-id = 0" class="btn btn-warning text-light fs-4" id="btn-index-1">Ver más...</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center my-auto">
+                    <img src="" id="img1" class="img-fluid" alt="...">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Noticia - 2 -index -->
+              <div class="card bg-transparent text-end mb-3 mx-5">
+                <div class="row g-0">
+                  <div class="col-md-4 text-center my-auto">
+                    <img src="" id="img2" class="img-fluid" alt="...">
+                  </div>
+                  <div class="col-md-8 mr-5">
+                    <div class="card-body pe-5">
+                      <h5 id="titulo2-noticia" class="card-title text-warning fs-1"></h5>
+                      <p id="texto2-noticia" class="card-text fs-4"></p>
+                      <a href="Detalle.html?N-id = 4" class="btn btn-warning text-light fs-4" id="btn-index-2">Ver más...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="nosotros">
+          <div class="card bg-transparent mb-5 mx-5">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning mb-5">¿QUIENES SOMOS?</h5>
+                    <p class="card-text text-justify pe-5">La Facultad de Ciencias Físico Matemáticas ha tenido una historia en la que se han visto reflejadas las inquietudes de alumnos y maestros en torno a la ciencia y en especial hacia la astronomía. 
+                    <br><br>Todo ese esfuerzo y generaciones, dieron empuje a la creación de grupos de interés en esta ciencia en todo el estado de Nuevo León, lo que contribuyó al interés de nuevos estudiantes que están acercándose a estos temas tan fascinantes. Un tema que nos atañe por circunstancias y por su conexión a la astronomía es el Sol y su observación. 
+                    <br><br>El área de Astronomía de la Facultad de Ciencias Físico Matemáticas ha impulsado el interés en la Cultura Solar con la finalidad de intensificar el gusto de los niños por la ciencia y al mismo tiempo reforzar la prudencia del cuidado de la salud al realizar observaciones que potencialmente pueden resultar peligrosas. Maestros y alumnos invitamos a todos a observar el Sol y los eclipses con la seguridad adecuada y la curiosidad engrandecida.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center my-auto">
+                  <img src="assets/observatorio.jpg" class="img-fluid rounded-start py-5 px-4 w-100" alt="...">
+                  <img src="assets/logotipo-U.png" class="img-fluid rounded-start px-4 py-5 w-30" alt="...">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="mx-4" src="assets/Cultura Solar 1.png" alt="" width="80">
+        </div>
+
+        <!-- Copyright -->
+        <div class="p-3">
+            Copyright © 2023 Cultura Solar
+        </div>
+        <!-- Copyright -->
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-dark fs-2" href="https://www.youtube.com/channel/UCLorQb66Jk3lun-M2wbxrGg" target="_blank"><i class="bi bi-youtube"></i></a></li>
+          <li class="ms-3"><a class="text-dark fs-2" href="https://instagram.com/difundiendoculturasolar?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-dark fs-2" href="https://twitter.com/cultura_solar?t=VS4rdWWas1IWQSpEoPkHBw&s=09" target="_blank"><i class="bi bi-twitter"></i></a></li>
+          <li class="ms-3"><a class="text-dark fs-2" href="https://www.tiktok.com/@difundiendoculturasolar?_t=8VxQACt9H6c&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+          <li class="ms-3"><a class="text-dark fs-2" href="https://www.facebook.com/difundiendoculturasolar/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3 me-4"><a class="text-dark fs-2" href="mailto: difundiendoculturasolar@gmail.com?" target="_blank"><i class="bi bi-chat-dots"></i></a></li>
+        </ul>
+      </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/Detalle.js"></script>
+</body>
+</html>

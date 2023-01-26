@@ -1,0 +1,20 @@
+[
+    {
+        "id": "HL1",
+        "titulo": "La leyenda Azteca del Sol y la Luna",
+        "subtitulo": "En la actualidad es bien conocido que el Sol es una estrella, una de tantas en todo el universo, que pareciera ser más grande y más luminosa por el hecho de ser la más cercana a nosotros, pero la realidad es que está a millones de kilómetros de la Tierra.",
+        "fecha": "",
+        "periodista": "Carlos Vargas",
+        "parrafos":[
+            "Imaginémonos por un momento que no conocemos esta información, que no contamos con conocimiento previo, claro que el Sol sería una de las primeras interrogantes en nuestra mente, no tendríamos idea de que es y como llegó a serlo, por lo que el paso más lógico para sería es crear teorías o historias para darle sentido, tal cual lo hicieron nuestros antepasados.",
+            "Esta es la leyenda azteca de cómo nacieron el Sol y la Luna, para entenderla desde el principio hay que saber que los aztecas también tienen leyendas sobre la creación de la humanidad, todas con su ciclo en donde al final hay un cataclismo, esta se sitúa en la humanidad actual que sobrevivió gracias a que se alimentaron de maíz y rindieron tributo a los dioses.",
+            "Los dioses decidieron que el mundo no podía estar más en la oscuridad y, reunidos en Teotihuacán, prendieron una fogata que mantuvieron encendida por cuatro años, después de esto se eligieron a dos tributos para que se lanzaran al fuego e iluminaran el mundo, el primero Nanáhuatl, una persona muy pobre y con una enfermedad en la piel, el segundo Nahui Técpatl, una persona orgullosa y de clase alta.",
+            "Los dos tributos se prepararon, ayunaron e hicieron sacrificios personales, dieron cada uno ofrendas en el proceso del ritual, las de Nahui no eran personales ni significativas, sin embargo, las de Nanáhuatl eran significativas considerando lo poco que tenía y alguna hasta imbuida en su propia sangre significando sacrificio.",
+            "Finalmente, después de su periodo de preparación, los tributos se acercaron a la hoguera, donde los dioses se formaron a los lados formando un camino recto hacia ella. Nahui lo intentó por primera vez, otra vez, y otra vez, cuatro veces seguidas lo intentó sin éxito, le faltó valor para echarse a las llamas con decisión, en cambio, Nanáhuatl se arrojó sin pensarlo a las llamas cayendo justo en el centro. Sintiéndose humillado por su adversario, Nahui se arrojó también, pero cayó más cerca del rojo vivo circundante que de las llamas.",
+            "Los dioses esperaron algo de tiempo y entonces el cielo se iluminó, Nanáhuatl salió convertido en el Sol en lo más alto del cielo, seguido de Nahui convertido en la Luna que brillaba bastante menos, pero había un problema, ninguno de ellos podía moverse, los dioses después de meditarlo, decidieron darle su vida y su energía a los astros de manera que con ese poder pudieran moverse de forma majestuosa sobre el cielo.",
+            "El viento fue quien les dio el primer empujón para empezar su eterno movimiento, pero Nahui se quedó atrás de Nanáhuatl, por ello se separaron y la Luna sale después del Sol.De esta manera la civilización azteca explicaba la creación del Sol y la Luna formados como los conocemos, en su eterno ciclo de movimiento que podemos ver hasta la fecha."
+        ],
+        "imagen": "assets/atardecer-piramide.jpg",
+        "imagenb": "assets/atardecer-piramide.jpg"
+    }
+]

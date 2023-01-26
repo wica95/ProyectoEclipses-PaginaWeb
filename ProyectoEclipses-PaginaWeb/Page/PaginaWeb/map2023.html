@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Solar - Eclipse 2023</title>
+
+    <link rel="icon" href="assets/Cultura Solar 1.png">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="mx-4" src="assets/Cultura Solar 1.png" alt="" width="140" height="93">
+                </a>
+            
+                <p class="nav-link fs-2 px-5 mx-3 text-white" style="margin: auto 0 auto 0;">Eclipse 2023</p>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Barra de navegacion con menus desplegables -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">                      
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active fs-4 px-5 mx-3 text-white" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Eventos
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="eventos.html">Eclipses</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Efemérides Astronómicas</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Próximos Eventos</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Artículos
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="Noticias.html">Noticias</a></li>
+                            <li><a class="dropdown-item text-white" href="sabias-que.html">Sabías que</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Entrevistas</a></li>
+                            <li><a class="dropdown-item text-white" href="historias.html">Historia y Leyendas</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle fs-4 px-5 mx-3 text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Multimedia
+                          </a>
+                          <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-white" href="#">Galería de Fotos</a></li>
+                            <li><a class="dropdown-item text-white" href="videos.html">Videos</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="eventos.html">Eventos</a> -->
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="videos.html">Leer más</a> -->
+                      <!-- <a class="nav-link fs-2 px-5 mx-3 text-white" href="Noticias.html">Noticias</a> -->
+                      <button type="button" id="toggleMode" class="btn btn-link fs-2 text-warning"><i class="bi bi-brightness-low-fill"></i></button>
+                </div>
+                <!-- Fin barra de navegacion -->
+            </div>
+        </nav>
+    </header>
+
+    <div id="contenedor" class="contenedor">    
+        <div id="map"></div>
+        <div id="legend"></div>
+        <!-- <div class="my-4 mx-5">
+            <select name="selectEclipse" id="eclipse_selection" class="form-select">
+                <option value="2023">Eclipse 2023</option>
+                <option value="2024">Eclipse 2024</option>
+            </select>
+        </div> -->
+
+        <!-- <div class="Nuestra-Conexión">
+            Detalles del Eclipse de 2023
+            <div class="card bg-transparent text-start mb-4 mx-5">
+                <div class="row g-0">
+                    <div class="col-md-8 mr-5">
+                       <div class="card-body pe-5">
+                            <h5 class="card-title text-warning fs-1">Eclipse 2023</h5>
+                            <p class="card-text fs-4">Detalles sobre este Eclipse</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> -->
+        
+        <!-- JQuery -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <script
+        src="js/Eclipses_JSON.js"
+        crossorigin="anonymous"
+        type="module"></script>
+        <!-- Index.js -->
+        <script
+        src="js/map.js"
+        crossorigin="anonymous"></script>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="mx-4" src="assets/Cultura Solar 1.png" alt="" width="80">
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            Copyright © 2023 Cultura Solar
+        </div>
+        <!-- Copyright -->
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-dark fs-2" href="https://www.youtube.com/channel/UCLorQb66Jk3lun-M2wbxrGg" target="_blank"><i class="bi bi-youtube"></i></a></li>
+            <li class="ms-3"><a class="text-dark fs-2" href="https://instagram.com/difundiendoculturasolar?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-dark fs-2" href="https://twitter.com/cultura_solar?t=VS4rdWWas1IWQSpEoPkHBw&s=09" target="_blank"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-dark fs-2" href="https://www.tiktok.com/@difundiendoculturasolar?_t=8VxQACt9H6c&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+            <li class="ms-3"><a class="text-dark fs-2" href="https://www.facebook.com/difundiendoculturasolar/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3 me-4"><a class="text-dark fs-2" href="mailto: difundiendoculturasolar@gmail.com?" target="_blank"><i class="bi bi-chat-dots"></i></a></li>
+        </ul>
+    </footer>
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Index.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/mapDarkMode.js"></script>
+</body>
+</html>

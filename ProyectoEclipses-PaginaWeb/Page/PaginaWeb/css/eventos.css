@@ -1,0 +1,226 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar.scrolled {
+    background-color: black !important;
+    transition: background-color 200ms linear;
+}
+
+nav div div a:nth-child(2) {
+   border-bottom: medium solid #ffc107;
+}
+
+#toggleMode{
+    border-radius: 60%;
+}
+
+.contenedor {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8%;
+    padding-top: 0%;
+    color: black;
+}
+
+#titulo-planetario {
+    border-radius: 0px 242px 242px 0px;
+    margin-left: -10%;
+    margin-right: 25%;
+}
+
+.cuenta-regresiva {
+    padding-top: 0%;
+    /* margin-bottom: 10%; */
+}
+
+.borde {
+    padding: 0% 0%;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+    
+.borde .card {
+    border-color: whitesmoke;
+}
+
+.card-body h5 {
+    font-weight: bold;
+}
+
+#clock-2023, #clock-2024 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 5%;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: transparent;
+    width: 14vmin;
+    height: 14vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+    font-size: 9pt;
+}
+
+span.num{
+    background-color: whitesmoke;
+    height: 100%;
+    color: black;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 5em;
+    border-radius: 5px 5px 0px 0px;
+}
+
+span.text{
+    font-size: 1.4em;
+    background-color: darkgray;
+    display: block;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 0.1em 0;
+    font-weight: 400;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cuenta-regresiva .card a {
+    background-color: #bf5424;
+    padding-inline-end: 45px;
+    padding-inline-start: 45px;
+    border-radius: 40px;
+}
+
+.titulo-eventos {
+    padding-bottom: 5%;
+    padding-top: 12%;
+    text-align: center;
+}
+
+.titulo-eventos2 {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.titulo-eventos2 h5 {
+    font-size: 48pt;
+    margin-bottom: 10%;
+}
+
+.titulo-eventos h5 {
+    font-size: 48pt;
+    margin-bottom: 10%;
+}
+
+.eclipse {
+    width: 80%;
+    margin: 4rem 5rem;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+fieldset {
+    background-color: black;
+}
+
+legend {
+    background-color: #f5a800;
+    color: white;
+    border: 5px solid white;
+    border-radius: 40px;
+    text-align: start;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: 20px solid whitesmoke;
+}
+
+footer i {
+    color: white;
+}
+
+/*DARK MODE*/
+
+.contenedor.dark {
+    background-color: black;
+    color: white;
+}
+
+.borde.dark {
+    border-color: white;
+}
+
+.borde .card.dark {
+    border-color: black;
+}
+
+footer.dark {
+    background-color: white;
+    color: black;
+    border: 20px solid black;
+}
+
+footer i.dark {
+    color: black;
+}
+
+/*END DARK MODE*/
+
+@media only screen and (max-width: 450px) {
+    .navbar-brand{
+        width: 60%;
+        height: 100%;
+    }
+
+    .navbar-brand img{
+        width: 25%;
+        height: 50%;
+    }
+
+    .navbar-collapse {
+        background-color: black;
+    }
+
+    .titulo-eventos h5 {
+        font-size: 24pt;
+        margin-bottom: 10%;
+    }
+
+    #clock-2023, #clock-2024 {
+        gap: 3px;
+    }
+
+    .box {
+        width: 12vmin;
+        height: 14vmin;
+        box-shadow: 7px 7px 15px rgba(0,0,0,0.5);
+        border-radius: 5px;
+        font-size: 4pt;
+    }
+
+    .cuenta-regresiva .card-body a {
+        font-size: 10pt;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+/*MENU DESPLEGABLE*/
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #1C2331;
+    color: rgb(195, 126, 0) !important;}
